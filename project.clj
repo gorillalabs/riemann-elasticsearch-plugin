@@ -1,6 +1,6 @@
-(defproject riemann-elasticsearch-output "0.1.1-SNAPSHOT"
+(defproject gorillalabs/riemann-elasticsearch-output "0.1.1a"
   :description "ElasticSearch output plugin for Riemann"
-  :url "https://github.com/avishai-ish-shalom/riemann-elasticsearch-output"
+  :url "https://github.com/gorillalabs/riemann-elasticsearch-plugin"
   :license {:name "Apache v2"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[clojurewerkz/elastisch "2.2.0-beta2" :exclusions [clj-http org.antlr/antlr-runtime potemkin cheshire]]]
